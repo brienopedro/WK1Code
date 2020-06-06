@@ -25,3 +25,10 @@ console.log (`My new balance is ${cash - [pizza * 3 + soda * 5]} after buying th
 console.log (`The number of friends I have made each year is ${[guyFriends + girlFriends] / age}`);
 
 console.log (`My name is ${firstName} ${middleInitial} ${lastName}`);
+
+console.log (`Pizza is ${`$${pizza}`}`);
+console.log (`Soda is ${`$${soda}`}`);
+console.log (`I have ${`$${creditCard}`} available in my credit card and ${`$${cash}`} in my wallet.`);
+console.log (`I have ${guyFriends + girlFriends} friends; ${guyFriends} are guys and ${girlFriends} are gals.`);
+console.log (`I am ${age} and my brother is ${myBrothersAge}`)
+console.log (`My name is ${firstName} ${middleInitial} ${lastName} and my brother/bestfriend is ${myBrothersFirstName} ${myBrothersMiddleInitial} ${myBrothersLastName}`);
